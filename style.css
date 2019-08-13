@@ -1,0 +1,46 @@
+body {
+	background-color: coral;
+}
+.screen {
+	width: 400px;
+	height: 120px;
+	border-radius: 30px;
+	background-color: gray;
+	margin: 45 auto;
+}
+.calculator {
+	border-radius: 45px;
+	border: 1px solid black;
+	width: 450px;
+	height: 600px;
+	margin: 100 auto;
+	background-color: black;
+}
+
+.btn-group {
+	transform: translate(7%, -3%);
+	height: 400px;
+	width: 400px;
+}
+
+.btn-group button {
+	background-color: orange;
+	margin: 2px;
+	border-radius: 50%;
+	height: 90px;
+	width: 90px;
+	font-size: 26;
+	opacity: 75%;
+	border-color: white;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+}
+
+.btn-group button:hover {
+	background-color: silver;
+}
+
+.btn-group #equals {
+}
+.btn-group .add {
+}
