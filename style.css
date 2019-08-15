@@ -1,12 +1,21 @@
 body {
 	background-color: coral;
 }
-.screen {
+.display {
 	width: 400px;
 	height: 120px;
 	border-radius: 30px;
-	background-color: gray;
+	background-color: #b0b0b0;
 	margin: 45 auto;
+}
+
+.display #text {
+	font-size: 68;
+	width: 90%;
+	padding-top: 20px;
+	padding-right: 5px;
+	display: flex;
+	justify-content: flex-end;
 }
 .calculator {
 	border-radius: 45px;
@@ -37,10 +46,5 @@ body {
 }
 
 .btn-group button:hover {
-	background-color: silver;
-}
-
-.btn-group #equals {
-}
-.btn-group .add {
+	background-color: #7b68ee;
 }
