@@ -61,9 +61,6 @@ function eval(op1, a, b) {
 equal.addEventListener("click", e => {
 	num2 = parseFloat(display.textContent);
 
-	console.log(op);
-	console.log(num2);
-
 	if (op == "divide" && num2 == 0) {
 		alert("You cannot divide by zero!!!");
 	} else {
